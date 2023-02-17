@@ -1,0 +1,322 @@
+html {
+    --dark-blue: #101A32;
+    --orange: #FD5D14;
+    --gray-light: #e3e3e3;
+}
+
+.container-fluid .local {
+    font-size: 2em;
+    border: 1px solid red;
+}
+
+.banniere1 {
+    align-items: center;
+    justify-items: center;
+}
+
+.banniere1 .row .col-md-4 .row .icone {
+    font-size: 2.5em;
+    margin-top: .2em;
+    justify-items: center;
+    color: var(--orange);
+}
+
+.banniere1 .row .col-md-4 {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.banniere1 .row .colonne-2 {
+    border-left: 2px solid var(--gray-light);
+    border-right: 2px solid var(--gray-light);
+}
+
+.banniere1 .row .col-md-4 .row .col-md-10 h4 {
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-size: 1.2em;
+    font-weight: 650;
+    margin-top: 1em;
+}
+
+.banniere1 .row .col-md-4 .row .col-md-10 p {
+    color: gray;
+}
+
+/*** NAVBAR ***/
+
+.navbar{
+    background: url("../img/bg.png") !important;
+    padding: 0;
+}
+
+.my-navbar .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.my-navbar .navbar .container-fluid .collapse .navbar-nav .nav-item .maison {
+    color: var(--orange);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+/* .my-navbar .navbar .container-fluid .navbar-brand {
+    color: var(--orange);
+    text-transform: uppercase;
+} */
+
+.my-navbar .navbar #devis {
+    background-color: var(--orange);
+    padding: 2rem 1rem;
+    width: 15%;
+}
+
+.my-navbar .navbar #devis a {
+    color: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+/*** Carousel ***/
+
+.carousel-item {
+    background-color: var(--dark-blue);
+}
+
+.carousel-item img {
+    opacity: 20%;
+}
+
+.carousel-item .my-title {
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    font-size: 8em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+}
+
+.carousel-item .nous-contacter {
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    background-color: var(--orange);
+    padding: .5em 1.5em;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 550;
+}
+
+.carousel-item .fa {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: var(--orange);
+    font-size: 10em;
+}
+
+/*** About ***/
+
+.my-container {
+    margin: 0 auto;
+    width: 95%;
+    gap: 2.2rem; /* lespace entre les items*/
+    flex-direction: row; /*row permet daligner les elements sur une meme ligne*/
+    flex-wrap: nowrap; /*wrap permet de passer à la ligne si les elements ne tiennent pas sur une ligne */
+    align-items: center; /*centre des elements sur la ligne */
+    align-content: center;
+}
+
+.my-about {
+    margin-top: 3em;
+}
+.my-about h1 {
+    text-transform: uppercase;
+    font-size: 3.7em;
+    font-weight: 650;
+    color: var(--dark-blue);
+}
+
+.my-about span {
+    color: var(--orange);
+}
+
+.my-about h3 {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    color: var(--dark-blue);
+}
+
+.my-about p {
+    color: gray;
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+
+.my-about .img-about {
+    width: 90%;
+    position: relative;
+    top: 10%;
+
+}
+
+.my-about .check p {
+    font-weight: 550;
+    margin-top: 1em;
+}
+
+.my-about .check p .fa {
+    color: var(--orange);
+    font-weight: 650;
+}
+
+.my-about .my-image-about {
+    background: url("../img/bg-2.png") !important;
+    padding: 0;
+}
+
+/*** Service ***/
+
+.my-service {
+    margin-top: 5em;
+    background-color: var(--gray-light);
+}
+
+.my-service h1 {
+    padding-top: 2em;
+    font-size: 3.7em;
+    text-transform: uppercase;
+    font-weight: 650;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.my-service span {
+    color: var(--orange);
+}
+
+.my-service .my-margin-top {    
+    margin-top: 4em;
+}
+
+.my-service .col-md-4 {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.my-service .my-images-services {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.my-service .my-margin-bottom {
+    margin-bottom: 5em;
+}
+
+.my-service .grand-icone {
+    position: absolute;
+    top: 58%;
+    font-size: 3em;
+    color: var(--orange);
+    background-color: white;
+    border-radius: 100%;
+    width: 17%;
+    left: 43%;
+    padding: .6em;
+    text-align: center;
+}
+
+.my-service h3 {
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-weight: 650;
+}
+
+.my-service .my-images-services .text{
+    color:gray;
+}
+
+.my-service .my-images-services p:last-child{
+    color:var(--orange);
+    text-transform: uppercase;
+
+}
+
+/*** contact ***/
+.my-contact .my-margin-top {    
+    margin-top: 4em;
+}
+
+/*** left ***/
+.my-contact .formulaire {
+    background-color: var(--gray-light);
+    padding: 3em;
+}
+
+.my-contact .formulaire .btn {
+    width: 100%;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 0%;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: white;
+}
+
+.my-contact h1 {
+    font-size: 3.8em;
+    text-transform: uppercase;
+    font-weight: 650;
+    color: var(--dark-blue);
+}
+
+.my-contact span {
+    color: var(--orange);
+}
+
+.my-contact p {
+    margin-top: 1em;
+    font-size: 1.2em;
+    margin-bottom: 2.5em;
+}
+
+.my-contact a {
+    padding: 1em 2.5em;
+    background-color: var(--orange);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/*** projet ***/
+
+.my-projet {
+    background-color: var(--gray-light);
+    margin-top: 5em;
+}
+
+.my-projet h1 {
+    font-size: 3.8em;
+    text-transform: uppercase;
+    font-weight: 650;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.my-projet span {
+    color: var(--orange);
+}

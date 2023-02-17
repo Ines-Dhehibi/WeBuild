@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Batissons</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- FontAwesome est une police d'icône -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts police -->
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Koulen&family=Odibee+Sans&family=Rubik+Glitch&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/04_bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="banniere1">
+    <div class="container-fluid three-colonne">
+      <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-2 icone">
+                    <i class="fa fa-location-dot "></i>
+                </div>
+                <div class="col-md-10">
+                    <h4>Notre Bureau</h4>
+                    <p>123 Street, New York, Etats-Unis</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 colonne-2">
+            <div class="row">
+                <div class="col-md-2 icone">
+                    <i class="fa fa-envelope-open"></i>
+                </div>
+                <div class="col-md-10">
+                    <h4>Envoyez-nous un mail</h4>
+                    <p>info@exemple.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-2 icone">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="col-md-10">
+                    <h4>Appelez-nous</h4>
+                    <p>+012 345 6789</p>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-navbar">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img src="img/logo.jpg">
+          <!-- <a class="navbar-brand" href="#">Maison</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link maison" href="#">Maison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">à propos de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">service</a>
+              </li>
+              
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PAGES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a style="color: black;" class="dropdown-item" href="#">NOTRE ÉQUIPE</a>
+                  <a style="color: black;" class="dropdown-item" href="#">TÉMOIGNAGE</a>
+                  <div class="dropdown-divider"></div>
+                  <a style="color: black;" class="dropdown-item" href="#">NOTRE BLOG</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-item" id="devis">
+          <a class="nav-link devis" href="#">obtenir un devis <i class="fa fa-arrow-right"></i></a>
+        </div>
+
+        
+    </nav>
+  </div>
+
+  <div class="my-carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel-1.jpg" class="d-block w-100" alt="...">
+          <i class="fa fa-screwdriver-wrench"></i>
+          <h1 class="my-title">Nous sommes digne <br> de confiance pour <br>votre projet</h1>
+          <p class="nous-contacter">Nous contacter</p>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel-2.jpg" class="d-block w-100" alt="...">
+          <i class="fa fa-screwdriver-wrench"></i>
+          <h1 class="my-title">Nous sommes digne <br> de confiance pour <br>votre projet</h1>
+          <p class="nous-contacter">Nous contacter</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="my-about my-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Nous sommes <span>le leader </span>de l'industrie de la construction</h1>
+          <h3>Lorem ipsumils odio repellat. Evenie ae hic maxime, nisi consequatur vitae officia aliquam.</h3>
+          <p>Lorem consectetur aliquid labore blanditiis illo natus veniam odio, laudantium magni eligendi sunt suscipit molestias!Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis fuga similique architecto numquam cum velit consectetur aliquid labore blanditiis illo natus veniam odio, laudantium magni eligendi sunt suscipit molestias!</p>
+          <div class="row check">
+            <div class="col-md-6">
+              <p><i class="fa fa-check"></i> Planification parfaite</p>
+              <p><i class="fa fa-check"></i> Travailleurs professionnels</p>
+              <p><i class="fa fa-check"></i> Premier processus de travail</p>
+            </div>
+            <div class="col-md-6">
+              <p><i class="fa fa-check"></i> Planification parfaite</p>
+              <p><i class="fa fa-check"></i> Travailleurs professionnels</p>
+              <p><i class="fa fa-check"></i> Premier processus de travail</p>
+            </div>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aut nihil alias odit nisi officia aspernatur laboriosam possimus placeat, iure quo ea, quia at numquam enim molestiae aliquid nemo accusamus?</p>
+          <br><br><img src="img/signature.jpg" alt="signature">
+        </div>
+        <div class="col-md-5 my-image-about">
+          <img class="img-about" src="img/about.jpg" alt="about">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-service">
+    <div class="my-container">
+      <h1>Nous fournissons <span>les <br> meilleurs </span>services de <br> construction</h1>
+      <div class="row my-margin-top my-container">
+        <div class="col-md-4 my-images-services">
+          <img src="img/service-1.jpg" alt="service">
+          <i class="fa-solid fa-building grand-icone"></i>
+          <h3>Construction de bâtiments</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+        <div class="col-md-4 my-images-services">
+          <img src="img/service-2.jpg" alt="service">
+          <i class="fa-solid fa-house-chimney grand-icone"></i>
+          <h3>rénovation de maison</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+        <div class="col-md-4 my-images-services">
+          <img src="img/service-1.jpg" alt="service">
+          <i class="fa-sharp fa-solid fa-compass-drafting grand-icone"></i>
+          <h3>Conception architectural</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+      </div>
+      <div class="row my-margin-top my-container">
+        <div class="col-md-4 my-images-services my-margin-bottom">
+          <img src="img/service-4.jpg" alt="service">
+          <i class="fa-solid fa-palette grand-icone"></i>
+          <h3>design d'intérieur</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+        <div class="col-md-4 my-images-services my-margin-bottom">
+          <img src="img/service-5.jpg" alt="service">
+          <i class="fa-solid fa-screwdriver-wrench grand-icone"></i>
+          <h3>fixation et soutien</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+        <div class="col-md-4 my-images-services my-margin-bottom">
+          <img src="img/service-6.jpg" alt="service">
+          <i class="fa-solid fa-paintbrush grand-icone"></i>
+          <h3>peinture</h3>
+          <p class="text">Lorem ipsum dolor sit, amet co elisit praesentium deleniti sed cupiditate <br> reprehenderit ipsam quae modi natus excepturi, dolores possimus hic <br>ducimus alias quidem.</p>
+          <p>Lire la suite <i class="fa fa-arrow-right"></i></p>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+  <div class="my-contact">
+    <div class="my-container">
+      <div class="row my-margin-top">
+        <div class="col-md-4">
+          <h1>Demander un <br><span>rappel</span></h1>
+          <p>Lorem ipsum, dolor sit amet coing elitor sed, modi fugit perferendis laborum laboriosam? Porro ali similique, minus officiis saepe. Facilis iste fugiat lique, minus officiis saepe. Facilis iste fugiatlique, minus officiis saepe. Facilis iste fugiatlique, minus officiis saepe. Facilis iste fugiat lique, minus officiis saepe. Facilis iste fugiatlique, minusste fugiatlique, minus officiis saepe. Facilis iste fugiat liqueis iste fugiatlique, minus officiis saepe. Facilis iste fugiatlique, minus officiis saepeue, minus offic fugiat corrupti!</p>
+          <a href="#">Obtenir un devis</a>
+        </div>
+        <div class="col-md-8 formulaire">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="votre nom">
+            </div>
+            <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="votre e-mail">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Date de rappel">
+            </div>
+            <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Heure de rappel">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button class="btn" type="button">Envoyez la demande</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-projet">
+    <div class="my-container">
+      <h1>Certains de nos <br>projets de rêve <br><span>populaires</span></h1>
+      <div class="row">
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.bundle.min.js" integrity="sha512-1TK4hjCY5+E9H3r5+05bEGbKGyK506WaDPfPe1s/ihwRjr6OtL43zJLzOFQ+/zciONEd+sp7LwrfOCnyukPSsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
